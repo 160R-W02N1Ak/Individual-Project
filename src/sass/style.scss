@@ -1,13 +1,25 @@
+
 @import "variables";
 @import "mixins";
 @import "normalize";
 @import "layout";
-@import "components/sidebar";
-@import "components/navbar"
-/* Components */
+
+// /* Components */
+@import "components/view-header";
+@import "components/date-form";
+@import "components/refresh_button";
+@import "components/table-row";
+@import "components/single-chart-legend";
+@import "components/button_orange";
+@import "components/link";
 
 // /* Sections */
-// @import "section/registration_form";
+@import "sections/sidebar";
+@import "sections/navbar";
+@import "sections/general";
+@import "sections/general-chart";
+@import "sections/general-links";
 
 // /* Pages / Views */
+@import "pages/page-general";
 // @import "pages/registration";
