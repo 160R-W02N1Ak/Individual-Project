@@ -49,7 +49,7 @@
         Etiam tempor id ligula a dapibus. Proin vitae arcu nulla.</p>
       <p>Buttons orange</p>
 
-      <a href="#"class="btn btn-orange">+ add new</a>
+      <a href="#" class="btn btn-orange">+ add new</a>
     </div>
   </section>
 
@@ -93,19 +93,26 @@
     <h2> Date-form</h2>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-4">
           <div class="date-form">
-            <div class="date">
-              <p>16.05.2016</p>
-            </div>
-            <form>
-              <input type="date" id="start" name="trip-start" value="2016-05-16" min="2016-01-01" max="2020-12-31">
-            </form>
+
           </div>
           <br>
+          <div class="wrapperro">
+            <div class="new-date-form">
+              <div class="date-wrapper">
+                <input type="date" id="start-date" name="trip-start" value="2016-05-16" min="2016-01-01" max="2020-12-31">
+                <img src="icons/calendar.svg">
+              </div>
+              <div class="date-wrapper">
+                <input type="date" id="end-date" name="trip-start" value="2016-05-16" min="2016-01-01" max="2020-12-31">
+                <img src="icons/calendar.svg">
+              </div>
+            </div>
+          </div>
           <h2> Refresh button</h2>
           <button class="refresh">
-            <img src="icons/refresh.svg">
+            <img src="icons/refresh.svg" alt="icon">
           </button>
           <br>
         </div>
@@ -152,7 +159,7 @@
           <br>
           <h2>Orange button</h2>
           <button class="btn-orange">
-            <p>+ add new</p>
+            <a href="#">+ add new</a>
           </button>
           <br>
         </div>
